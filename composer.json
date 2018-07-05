@@ -1,0 +1,36 @@
+{
+    "name": "wisonlau/identity-card",
+    "description": "A simple proof of identity card of the people's Republic of China.",
+    "keywords": [
+    	"php71",
+    	"ID Card",
+    	"Region",
+    	"Area"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://wisonlau.com",
+    "authors": [
+        {
+            "name": "wisonlau",
+            "email": "122022066@qq.com",
+            "homepage": "https://wisonlau.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wisonlau\\IdentityCard\\": "src/"
+        }
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.0",
+        "phpunit/phpunit": "^7.1"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
